@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main (){
+char arr[8];
+int i;
+printf("Enter 8 characters:\n");
+for (i=0;i<8;i++){
+ scanf(" %c",&arr[i]);
+}
+printf("characters in the array are:\n");
+  for (i=0;i<8;i++){
+   printf("%c ",arr[i]);
+}
+return 0;
+}
